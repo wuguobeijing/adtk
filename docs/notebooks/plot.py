@@ -184,7 +184,7 @@ result_mul = pd.DataFrame
 # 创建tkinter主界面
 root = tk.Tk()
 root.title("smart controller")
-root.geometry("800x450+0+0")
+root.geometry("1800x1450+0+0")
 root.configure(bg="gainsboro")
 # 创建button
 button_spc = tk.Button(root, text="spc设置", command=spc_set_window)
