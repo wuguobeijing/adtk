@@ -196,8 +196,8 @@ button_avc.place(x=100, y=0, width=100, height=30)
 frame1 = tk.Frame(root, bg="gainsboro")
 frame1.place(x=0, y=30, width=3800, height=1600)
 # 解决matplot中文显示乱码
-plt.rcParams['font.sans-serif'] = ['SimHei']  # 防止中文标签乱码，还有通过导入字体文件的方法
-plt.rcParams['axes.unicode_minus'] = False
+# plt.rcParams['font.sans-serif'] = ['SimHei']  # 防止中文标签乱码，还有通过导入字体文件的方法
+# plt.rcParams['axes.unicode_minus'] = False
 plt.rcParams['lines.linewidth'] = 1  # 设置曲线线条宽度
 # 创建画图figure
 fig1 = plt.figure(figsize=(4, 4))
